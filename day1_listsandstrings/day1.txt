@@ -1,0 +1,66 @@
+PYTHON LISTS:
+
+A list is a built-in datastructure that can hold an ordered collection of items. 
+- can contain duplicate items.
+- Mutable: items can be modified, replaced or removed.
+- Ordered: maintains the order in which items are added.
+- Index-based: Items are accessed using their position.
+- Can store mixed datatypes (Integers, Strings, booleans, even other lists).
+
+CREATING A LIST
+
+1. Using square brackets
+2. Using list() Constructor
+3. Creating List with repeated elements
+
+
+ACCESSING LIST ELEMENTS
+
+ADDING ELEMENTS INTO LIST
+1. append()
+2. extend()
+3. insert()
+4. clear()
+
+UPDATING ELEMENTS INTO LIST
+
+REMOVING ELEMENTS FROM LIST
+1. remove()
+2. pop()
+3. del statement 
+
+ITERATING OVER LISTS 
+
+
+LIST COMPREHENSION: List comprehension is a concise way to create lists using a single
+line of code. It is useful for applying an operation or filter to items in an iterable. 
+such as a list or range.
+
+
+HOW PYTHON STORES LIST ELEMENTS ?
+A list doesnt store actual values directly. Instead, it stores references(pointers) to objects in memory.
+List just keeps their addresses.
+
+Modifying a mutable element can change the original object, while immutable remain unaffected.
+
+
+
+TUPLES:
+
+Create a new tuples using literals. 
+EX: tuples = ("localhost", 2, 5.6)
+
+You dont need paranthesis. comma seperated sequence is enough.
+
+Can also create tuples using tuple() Constructor
+
+
+DIFFERENCES:
+
+1. Lists and Tuples are ordered sequences.
+2. Lists and Tuples can contain Arbitrary objects.
+3. Dont need to be unique.
+4. Lists and Tuples can be indexed and sliced.
+5. Lists and Tuples can be nested.
+6. Lists are mutable, Tuples are immutable.
+
